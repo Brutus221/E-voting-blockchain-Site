@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+ background-image: url("uj\ clean\ wallpaper.jfif");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.icon{
+    color: orangered;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.navbar{
+    width: 200px;
+ float: left;
+ height: 70px;   
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 19px;
+}
+ul li a{
+    text-decoration: none;
+    color: orange;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+transition: 0.1s ;
+}
+ul li a:hover{
+    border-bottom: solid 3px red;
+
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 300px;
+}
+.srch{
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    height: 48px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius :5px; 
+    border-top-left-radius :5px; 
+}
+.btn{
+    width:100px ;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: orange;
+    position: relative;
+    float: left;
+
+}
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 1.2px;
+line-height: 30px;
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-left:20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: orangered;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn a{
+    color: yellow;
+    text-decoration:none ;
+    transition: .3s ease;
+    
+}
+.cn:hover{
+    background-color: red;
+    border-bottom: solid 3px yellow;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background-color: orangered;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color:yellow;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid pink;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.form input:focus{
+    color: white;
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btnn{
+    width: 240px;
+    height: 48px;
+    background:  orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+    border-bottom: solid 3px red;
+
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+text-decoration: none;
+color: gold;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+.icons{
+    flex: auto;
+    text-align: right;
+    color: black;
+    font-size: larger;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.all{
+    width: 100%;
+    background-image: url("800px-UJ_DFC.jfif");
+       background-position: center;
+       background-size: cover;
+       height: 109vh;
+       opacity: 10em;
+}
+.Product{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: orange;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.Parties{
+    margin: 1em;
+    display: flex;
+    justify-content:space;
+    padding: 2em;
+    float: center;
+
+
+}
+.Party-col{
+display: flex;
+justify-content:space-between;
+float: center;
+}
+.top-bar {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.btn {
+  background: coral;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.page-info {
+  margin-left: 1rem;
+}
+
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 1rem;
+}
+.real{
+	/*width: 350px;
+	height: 500px;*/
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	/*border-radius: 10px;*/
+	box-shadow: 5px 20px 50px #000;
+    width: 250px;
+    height: 380px;
+    background-color: orangered;
+    position: absolute;
+    /*top: -0.870px;*/
+    bottom: +60px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: grey;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: orangered;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: red;
+}
+.login{
+	height: 460px;
+	background: orange;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: orangered;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+.p{
+    display:flex;
+}
+.mainy{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+animation: animate 6s ease-in-out infinite;
+background-image: url("SRC\ BACKGROUND.jpg");
+height: 109vh;
+opacity: 10em;
+}
+@keyframes animate{
+    /*100%{
+        background-image: url("src.jpg");
+        
+    }*/
+   /* 25%{
+        background-image: url("SRC\ BACKGROUND.jpg");
+    }*/
+    /*50%{
+        background-image: url("SABC-News-University-of-Johannesburg1-Facebook-UJ.jpg");
+    }*/
+    /*70%{
+        background-image: url("src-president.webp");
+    }*/
+}
+.all{
+    width: 100%;
+    background-image: url("800px-UJ_DFC.jfif");
+       background-position: center;
+       background-size: cover;
+       height: 109vh;
+       opacity: 10em;
+}
